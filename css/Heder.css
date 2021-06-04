@@ -39,6 +39,7 @@
 	flex-direction: column;
 	/* background-color: tomato; */
 	justify-content: center;
+	align-items: center;
 	padding: 40px;
 	width: 100%;
 	height: 100%;

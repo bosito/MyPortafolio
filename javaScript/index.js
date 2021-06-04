@@ -1,6 +1,5 @@
 window.onscroll = () => { scrollFunction() };
 
-
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("navbar").style.top = "0";
@@ -8,6 +7,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.top = "-60px";
     }
 }
+
 let config = {
     strings: ['Js Developer', 'Jose Luis'],
     typeSpeed: 40,
@@ -66,4 +66,30 @@ function scrollFunctionBoton() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//----MODAL IMAGES -----
+// Get the modal
+let modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+let contenImageCardPresentation = document.getElementById("myImgBlock");
+let image = document.getElementById("myImg")
+let modalImg = document.getElementById("img01");
+
+function testFunction() {
+  modalImg.src = image.src;
+}
+
+contenImageCardPresentation.onclick = function () {
+  modal.style.display = "block";
+  testFunction()
+}
+
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
 }

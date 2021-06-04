@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/floatBoton.css">
     <link rel="stylesheet" href="./css/My Skills.css">
     <link rel="stylesheet" href="./css/Projects.css">
+    <link rel="stylesheet" href="./css/MyModal.css">
 </head>
 
 <body>
@@ -93,7 +94,7 @@
                             </a>
                         </div>
                         <div class="iconBoton">
-                            <a class="rutaIcon" href="#">
+                            <a class="rutaIcon" href="https://www.instagram.com/bosito12/?hl=es-la">
                                 <img src="https://image.flaticon.com/icons/png/128/87/87390.png" alt="Instagram">
                             </a>
                         </div>
@@ -102,11 +103,7 @@
                                 <img src="https://image.flaticon.com/icons/png/128/1384/1384046.png" alt="linkedin">
                             </a>
                         </div>
-                        <div class="iconBoton">
-                            <a class="rutaIcon" href="#">
-                                <img src="https://image.flaticon.com/icons/png/128/1384/1384023.png" alt="linkedin">
-                            </a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -216,28 +213,29 @@
                 <div class="containerTextProjects">
 
                     <div class="containerMarginImageProjects">
-                        <div class="containerImageProjects">
-                            <img src="https://spectrum.imgix.net/communities/4dc9e6f8-a22e-40eb-8431-6c03cba60343/darklogo.png.0.6222387758346848?w=256&h=256&dpr=2&auto=compress&expires=1621987200000&ixlib=js-1.3.0&s=4f84a180cfae6d3ca1abdebbdabfa6f0" 
-                            alt="expo"
-                            class="ImageProjects">
-                            <div class="overlayTop">
-                                <div class="containerTextOevrlay">
-                                    <h3 class="textCardsProjects">Apps with</h3>
+                        <a href="https://expo.io/@xoxe?tab=projects">
+                            <div class="containerImageProjects">
+                                <img src="https://spectrum.imgix.net/communities/4dc9e6f8-a22e-40eb-8431-6c03cba60343/darklogo.png.0.6222387758346848?w=256&h=256&dpr=2&auto=compress&expires=1621987200000&ixlib=js-1.3.0&s=4f84a180cfae6d3ca1abdebbdabfa6f0"
+                                    alt="expo" class="ImageProjects">
+                                <div class="overlayTop">
+                                    <div class="containerTextOevrlay">
+                                        <h3 class="textCardsProjects">Apps with</h3>
+                                    </div>
+                                </div>
+                                <div class="overlayBotom">
+                                    <div class="containerTextOevrlayBotom">
+                                        <h3 class="textCardsProjectsBotom">Expo</h3>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="overlayBotom">
-                                <div class="containerTextOevrlayBotom">
-                                    <h3 class="textCardsProjectsBotom">Expo</h3>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
-                    <div class="containerMarginImageProjects">
+                    <div id="myImgBlock" class="containerMarginImageProjects">
                         <div class="containerImageProjects">
-                            <img src="https://enterados.pe/wp-content/uploads/2020/09/tableta-digital-tips-crehana.jpg" 
-                            alt="Art"
-                            class="ImageProjects">
+                            <img id="myImg"
+                                src="https://enterados.pe/wp-content/uploads/2020/09/tableta-digital-tips-crehana.jpg"
+                                alt="Art" class="ImageProjects">
                             <div class="overlayTop">
                                 <div class="containerTextOevrlay">
                                     <p class="textCardsProjects">My</p>
@@ -252,28 +250,36 @@
                     </div>
 
                     <div class="containerMarginImageProjects">
-                        <div class="containerImageProjects">
-                            <img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/06/github.png?width=1200&enable=upscale" 
-                            alt="github"
-                            class="ImageProjects">
-                            <div class="overlayTop">
-                                <div class="containerTextOevrlay">
-                                    <p class="textCardsProjects">My</p>
+                        <a href="https://github.com/bosito">
+                            <div class="containerImageProjects">
+                                <img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/06/github.png?width=1200&enable=upscale"
+                                    alt="github" class="ImageProjects">
+                                <div class="overlayTop">
+                                    <div class="containerTextOevrlay">
+                                        <p class="textCardsProjects">My</p>
+                                    </div>
+                                </div>
+                                <div class="overlayBotom">
+                                    <div class="containerTextOevrlayBotom">
+                                        <h3 class="textCardsProjectsBotom">Github</h3>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="overlayBotom">
-                                <div class="containerTextOevrlayBotom">
-                                    <h3 class="textCardsProjectsBotom">Github</h3>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
-                    
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <!-- <img class="modal-content" src="https://enterados.pe/wp-content/uploads/2020/09/tableta-digital-tips-crehana.jpg"> -->
+    </div>
+
     <button onclick="topFunction()" class="myBtn" id="myBtn" title="Go to top">Top</button>
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
