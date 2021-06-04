@@ -1,0 +1,65 @@
+.containerAbout{
+	display: flex;
+	height: 100vh ;
+	width: 100%;
+	background-color: #131414;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+}
+.containerInformation {
+  display: flex;
+  height: 100%;
+  background-color: transparent;
+  width: 90%;
+}
+.cuadrado {
+  display: flex;
+  /* background-color: blueviolet; */
+  width: 400px;
+  height: 100%;
+}
+.cuadradoImage{
+    align-items: center;
+    justify-content: center;
+}
+.cuadradoTexto {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 50px;
+}
+.myFoto {
+  width: 93%;
+  height: 93%;
+  transition: 1.5s;
+}
+.myFotoAnimate:hover{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* background: red; */
+    transition: 1.5s;
+}
+.followMeContainer{
+    display: flex;
+    width: 30%;
+    /* background-color: violet; */
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.iconBoton{
+    border-radius: 10px;
+    transition: 1s;
+    background-color: transparent;
+}
+.iconBoton:hover{
+    transition: 1s;
+    background-color: rgb(248, 248, 248);
+}
+.rutaIcon{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}

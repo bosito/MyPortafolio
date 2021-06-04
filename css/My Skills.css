@@ -1,0 +1,81 @@
+.containerSkills {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  height: 100%;
+  padding: 40px;
+}
+.containerTilteSkills {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+}
+.iconSkills {
+  width: 60px;
+  height: 60px;
+}
+.myListSkills {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 10px;
+}
+.containerSkillsFromBar {
+  display: flex;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.conatinerProgresBar{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.progresBasFondo{
+    display: flex;
+    background-color: rgba(82, 81, 81, 0.856);
+    width: 100%;
+    height: 10px;
+}
+.prodresBarAnimate{
+    display: flex;
+    height: 100%;
+    background-image: linear-gradient(-224deg,rgba(235, 41, 41, 0.938),rgba(9, 12, 207, 0.938));
+}
+.incialStateJavaScript{
+    width: 85%;
+}
+.incialStateReact{
+    width: 80%;
+}
+.incialStateHtml{
+    width: 90%;
+}
+.incialStateCss{
+    width: 76%;
+}
+.incialStateReact-Native{
+    width: 87%;
+}
+@keyframes propgresMoverReact {0%{width: 0%;}100%{width: 80%;}}
+@keyframes propgresMoverJavaScript {0%{width: 0%;}100%{width: 85%;}}
+@keyframes propgresMoverHtml {0%{width: 0%;}100%{width: 90%;}}
+@keyframes propgresMoverCss {0%{width: 0%;}100%{width: 76%;}}
+@keyframes propgresMoverReact-Native {0%{width: 0%;}100%{width: 87%;}}
+
+.containerImageSkills {
+  display: flex;
+  width: 50px;
+  background-color: transparent;
+  height: 50px;
+  align-items: center;
+}
+.imageSkillIcon {
+  width: 90%;
+  height: 90%;
+}

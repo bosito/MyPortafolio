@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+.text {
+  color: white;
+  font-size: 80px;
+  font-family: "Bitter", serif;
+  /* font-family: 'EB Garamond', serif; */
+}
+.txtAnimate {
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+.containerTitle {
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+}
+.textSecundari {
+  color: white;
+  font-size: 50px;
+  font-family: "Bitter", serif;
+  font-weight: bold;
+}
+.textComun {
+  color: lightgrey;
+  font-size: 17px;
+  font-family: cursive;
+  padding: 10px;
+  /* text-align: end; */
+}
+.titleSkills {
+  font-size: 40px;
+  color: white;
+}
+.textInformationSkill {
+  color: azure;
+  font-size: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 13px;
+}
+.containerTitleProjects {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+.titleProjects {
+  background: linear-gradient(
+    -224deg,
+    rgba(235, 41, 41, 0.938),
+    rgba(9, 12, 207, 0.938)
+  );
+  font-style: italic;
+  letter-spacing: 2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
