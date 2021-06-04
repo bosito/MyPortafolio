@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/navigations.css">
     <link rel="stylesheet" href="./css/Heder.css">
     <link rel="stylesheet" href="./css/About.css">
-    <link rel="stylesheet" href="./css/IconNavigation.css">
     <link rel="stylesheet" href="./css/floatBoton.css">
     <link rel="stylesheet" href="./css/My Skills.css">
     <link rel="stylesheet" href="./css/Projects.css">
@@ -28,7 +27,7 @@
                     <a class="BotonsNavigations botonNavigationLeft" href="#About">About</a>
                     <a class="BotonsNavigations botonNavigationLeft" href="#Skils">My Skills</a>
                     <a class="BotonsNavigations botonNavigationLeft" href="#myProjects">My Projects</a>
-                    <div class="container" onclick="myIconBotonNavigation(this)">
+                    <div class="containerIconNavigations" onclick="myIconBotonNavigation(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -39,6 +38,7 @@
     </section>
     <section id="principalPrecentation">
         <div class="bgimg-1 containerPresentation">
+
             <div class="NavigationContainerPrincipal">
                 <div class="containerCenterNavigation">
                     <a class="BotonsNavigations" href="#">Developer</a>
@@ -48,13 +48,14 @@
                         <a class="BotonsNavigations botonNavigationLeft" href="#Skils">My Skills</a>
                         <a class="BotonsNavigations botonNavigationLeft" href="#myProjects">My Projects</a>
                     </div>
-                    <div class="container" onclick="myIconBotonNavigation(this)">
+                    <div class="containerIconNavigations" onclick="myIconBotonNavigation(this)" id="icono">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
                     </div>
                 </div>
             </div>
+
             <div class="containerTextHeder">
                 <p class="text" style="font-size: 40px;">Hi </p>
                 <p class="text" style="font-size: 40px;">Welcome to my World</p>
@@ -286,6 +287,7 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../javaScript/index.js"></script>
+<script src="../javaScript/navegacionMovil.js"></script>
 <script>
     AOS.init();
 </script>
