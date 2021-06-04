@@ -1,6 +1,6 @@
 .containerAbout{
 	display: flex;
-	height: 100vh ;
+	height: 110vh ;
 	width: 100%;
 	background-color: #131414;
 	justify-content: center;
@@ -10,6 +10,7 @@
 .containerInformation {
   display: flex;
   height: 100%;
+  /* flex-wrap: wrap; */
   background-color: transparent;
   width: 90%;
 }

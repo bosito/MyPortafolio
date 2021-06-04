@@ -1,33 +1,106 @@
 .containerProyects {
   display: flex;
-  height: 100vh;
+  /* height: 150vh; */
+  height: 110vh;
   width: 100%;
   background-color: #131414;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 3%;
 }
 .containerInformationProjects {
   display: flex;
   height: 100%;
   background-color: transparent;
-  width: 90%;
+  width: 100%;
   flex-direction: column;
 }
-.containerTextProjects{
-    display: flex;
-    justify-content: space-around;
-    background-color: violet;
-    height: 100%;
-    flex-wrap: wrap;
-}
-.containerImageProjects{
+.containerTextProjects {
   display: flex;
-  background-image: url('https://spectrum.imgix.net/communities/4dc9e6f8-a22e-40eb-8431-6c03cba60343/darklogo.png.0.6222387758346848?w=256&h=256&dpr=2&auto=compress&expires=1621987200000&ixlib=js-1.3.0&s=4f84a180cfae6d3ca1abdebbdabfa6f0');
+  justify-content: space-around;
+  background-color: transparent;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.containerImageProjects {
+  display: flex;
+  position: relative;
+  /* background-image: url("https://spectrum.imgix.net/communities/4dc9e6f8-a22e-40eb-8431-6c03cba60343/darklogo.png.0.6222387758346848?w=256&h=256&dpr=2&auto=compress&expires=1621987200000&ixlib=js-1.3.0&s=4f84a180cfae6d3ca1abdebbdabfa6f0"); */
   background-position: center;
+  height: 100%;
+  width: 100;
+}
+.ImageProjects {
+  display: flex;
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+  background-size: contain;
+}
+.containerMarginImageProjects {
+  background-color: rgba(224, 255, 255, 0.438);
+  padding: 10px;
   height: 50%;
-  width: 220px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 270px;
+}
+.overlayTop {
+  position: absolute;
+  bottom: 100%;
+  top: 0;
+  /* left: 0;
+  right: 0; */
+  background-color: #131414;
+  overflow: hidden;
+  width: 0;
+  height: 50%;
+  transition: 0.5s ease;
+}
+.overlayBotom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #131414;
+  overflow: hidden;
+  width: 0;
+  height: 50%;
+  transition: 0.5s;
+}
+.containerImageProjects:hover .overlayTop {
+  cursor: pointer;
+  bottom: 0;
+  width: 100%;
+}
+.containerImageProjects:hover .overlayBotom {
+  cursor: pointer;
+  width: 100%;
+}
+.containerTextOevrlay{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.textCardsProjects{
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.containerTextOevrlayBotom{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+}
+.textCardsProjectsBotom{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }

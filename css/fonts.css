@@ -52,7 +52,8 @@
     rgba(9, 12, 207, 0.938)
   );
   font-style: italic;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
