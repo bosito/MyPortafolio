@@ -18,7 +18,6 @@
 //         contador=0;
 //         enlaces.classList.remove('dos');
 //         enlaces.className = ('enlaces uno');
-
 //     }
 // })
 

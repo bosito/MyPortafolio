@@ -11,9 +11,23 @@
   font-family: "EB Garamond", serif;
   font-weight: bold;
 }
+
+.textTitleSecundary{
+  color: rgb(255, 255, 255);
+  font-family: "Bitter", serif;
+  font-size: 60px;
+}
+@media screen and (max-width: 600px) {
+ .text {
+   font-size: 40px;
+ }
+ .textTitleSecundary{
+   font-size: 26px;
+ }
+}
 .containerTitle {
   display: flex;
-  width: 600px;
+  /* width: 600px; */
   justify-content: space-evenly;
 }
 .textSecundari {
